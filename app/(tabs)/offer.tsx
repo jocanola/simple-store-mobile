@@ -1,12 +1,12 @@
-import { Image, StyleSheet, Platform, View } from "react-native";
+import { Image, StyleSheet, Platform, View, Text } from "react-native";
 
 import ProductListing from "@/features/product-listing";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-export default function HomeScreen() {
+export default function OfferScreen() {
   return (
     <SafeAreaView style={styles.container}>
-      <ProductListing />
+      <Text>Offer</Text>
     </SafeAreaView>
   );
 }
