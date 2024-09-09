@@ -3,7 +3,6 @@ import React, { FC } from "react";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import Icon from "react-native-vector-icons/Ionicons";
 
-// Header component
 const Header: FC<HeaderProps> = ({ title, onBackPress }) => {
   return (
     <View style={styles.header}>

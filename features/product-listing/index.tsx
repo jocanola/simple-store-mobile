@@ -5,7 +5,6 @@ import {
   Image,
   ScrollView,
   StyleSheet,
-  SafeAreaView,
   FlatList,
 } from "react-native";
 import SearchBar from "./components/Searchbar";
@@ -13,9 +12,7 @@ import FlashSaleBanner from "./components/FlashSaleBanner";
 import CategoryIcons from "./components/CategoryList";
 import ProductCard from "./components/ProductCard";
 import { products } from "./utils/constant";
-import Header from "@/components/Header/Header";
 import { Colors } from "@/constants/Colors";
-import { useCart } from "@/store/cartContext";
 
 const ProductListing = () => {
   const [searchParams, setSeachParams] = useState("");

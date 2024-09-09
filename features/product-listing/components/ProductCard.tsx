@@ -10,7 +10,6 @@ import {
 import { ProductCardProps } from "../types/types";
 import { Colors } from "@/constants/Colors";
 import { useRouter } from "expo-router";
-import { useCart } from "@/store/cartContext";
 
 const cardWidth = Dimensions.get("window").width - 48 - 24;
 

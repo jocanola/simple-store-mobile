@@ -45,7 +45,6 @@ const Cart = () => {
         <OrderSummary data={orderSummary} />
         <AppButton title="Checkout" onPress={handleCheckout} />
       </ScrollView>
-      {/* <CheckoutButton /> */}
     </SafeAreaView>
   );
 };

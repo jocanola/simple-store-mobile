@@ -33,7 +33,6 @@ const ProductDetail = () => {
     }
   };
 
-  // const statusBarHeigh = useHeader
   return (
     <SafeAreaView style={styles.container}>
       <Header

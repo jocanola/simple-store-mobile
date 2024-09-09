@@ -1,6 +1,5 @@
 import {
   CartContextProps,
-  CartItem,
   CartProviderProps,
   CartState,
   ProductCardProps,
